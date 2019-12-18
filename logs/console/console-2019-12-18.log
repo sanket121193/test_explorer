@@ -1,0 +1,3809 @@
+false 'ssl-certs' '/home/sanket/Documents/test_explorer_server/blockchain-explorer/ssl-certs'
+error when connecting to db: { error: password authentication failed for user "sanket"
+    at Connection.parseE (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:604:11)
+    at Connection.parseMessage (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:401:19)
+    at Socket.<anonymous> (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:121:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:601:20)
+  name: 'error',
+  length: 102,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '328',
+  routine: 'auth_failed' }
+******* Initialization started for hyperledger fabric platform ******, { 'balance-transfer-network': 
+   { name: 'balance-network',
+     profile: './connection-profile/balance-transfer.json' } }
+ client_configs.name  balance-network  client_configs.profile  ./connection-profile/balance-transfer.json
+FabricUtils.createFabricClient 
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  mychannel
+error when connecting to db: TypeError: Cannot read property 'on' of undefined
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:95:16)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Explorer Error >>>>>>>>>>>>>>>>>>>>>
+TypeError: "callback" argument must be a function
+    at setTimeout (timers.js:450:11)
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:112:5)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+initializeChannelFromDiscover  mychannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer2.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer2.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer3.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer3.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer4.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer4.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer5.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer5.example.com:7050 
+
+Channel genesis hash for channel [mychannel] >> c66a7b088752ced876b1c095c50d416d3eda3233db04cf8fa69bd51833390187
+FabricUtils.createDetachClient 
+initializeListener, client_name, client  balance-network { name: 'balance-network',
+  profile: './connection-profile/balance-transfer.json' }
+
+
+Please open web browser to access ：http://localhost:8080/
+
+
+pid is 517
+
+
+error when connecting to db: { error: password authentication failed for user "sanket"
+    at Connection.parseE (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:604:11)
+    at Connection.parseMessage (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:401:19)
+    at Socket.<anonymous> (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:121:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:601:20)
+  name: 'error',
+  length: 102,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '328',
+  routine: 'auth_failed' }
+Received kill signal, shutting down gracefully
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing explorer  >>>>>>>>>>>>>>>>>>>>>
+Closed out connections
+
+Sync process is started for the network : [balance-transfer-network] and client : [balance-network]
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  mychannel
+(node:565) DeprecationWarning: grpc.load: Use the @grpc/proto-loader module with grpc.loadPackageDefinition instead
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing client processor >>>>>>>>>>>>>>>>>>>>>
+An identity for the admin user: admin already exists in the wallet
+initializeChannelFromDiscover  mychannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer2.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer2.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer3.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer3.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer4.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer4.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer5.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer5.example.com:7050 
+
+Channel genesis hash for channel [mychannel] >> c66a7b088752ced876b1c095c50d416d3eda3233db04cf8fa69bd51833390187
+SyncServices.synchNetworkConfigToDB client  balance-network  channel_name  mychannel
+<<<<<<<<<<<<<<<<<<<<<<<<<< Synchronizer Error >>>>>>>>>>>>>>>>>>>>>
+Error: Client was closed and is not queryable
+    at process.nextTick (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/client.js:528:25)
+    at _combinedTickCallback (internal/process/next_tick.js:132:7)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing client processor >>>>>>>>>>>>>>>>>>>>>
+error when connecting to db: TypeError: Cannot read property 'on' of undefined
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:95:16)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Synchronizer Error >>>>>>>>>>>>>>>>>>>>>
+TypeError: "callback" argument must be a function
+    at setTimeout (timers.js:450:11)
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:112:5)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing client processor >>>>>>>>>>>>>>>>>>>>>
+false 'ssl-certs' '/home/sanket/Documents/test_explorer_server/blockchain-explorer/ssl-certs'
+error when connecting to db: { error: password authentication failed for user "sanket"
+    at Connection.parseE (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:604:11)
+    at Connection.parseMessage (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:401:19)
+    at Socket.<anonymous> (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:121:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:601:20)
+  name: 'error',
+  length: 102,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '328',
+  routine: 'auth_failed' }
+******* Initialization started for hyperledger fabric platform ******, { 'balance-transfer-network': 
+   { name: 'balance-network',
+     profile: './connection-profile/balance-transfer.json' } }
+ client_configs.name  balance-network  client_configs.profile  ./connection-profile/balance-transfer.json
+FabricUtils.createFabricClient 
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  mychannel
+An identity for the admin user: admin already exists in the wallet
+initializeChannelFromDiscover  mychannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer2.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer2.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer3.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer3.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer4.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer4.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer5.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer5.example.com:7050 
+
+Channel genesis hash for channel [mychannel] >> c66a7b088752ced876b1c095c50d416d3eda3233db04cf8fa69bd51833390187
+FabricUtils.createDetachClient 
+initializeListener, client_name, client  balance-network { name: 'balance-network',
+  profile: './connection-profile/balance-transfer.json' }
+
+
+Please open web browser to access ：http://localhost:8080/
+
+
+pid is 621
+
+
+error when connecting to db: { error: password authentication failed for user "sanket"
+    at Connection.parseE (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:604:11)
+    at Connection.parseMessage (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:401:19)
+    at Socket.<anonymous> (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:121:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:601:20)
+  name: 'error',
+  length: 102,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '328',
+  routine: 'auth_failed' }
+
+Sync process is started for the network : [balance-transfer-network] and client : [balance-network]
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  mychannel
+(node:644) DeprecationWarning: grpc.load: Use the @grpc/proto-loader module with grpc.loadPackageDefinition instead
+An identity for the admin user: admin already exists in the wallet
+error when connecting to db: TypeError: Cannot read property 'on' of undefined
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:95:16)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Explorer Error >>>>>>>>>>>>>>>>>>>>>
+TypeError: "callback" argument must be a function
+    at setTimeout (timers.js:450:11)
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:112:5)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+initializeChannelFromDiscover  mychannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer2.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer2.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer3.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer3.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer4.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer4.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer5.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer5.example.com:7050 
+
+Channel genesis hash for channel [mychannel] >> c66a7b088752ced876b1c095c50d416d3eda3233db04cf8fa69bd51833390187
+SyncServices.synchNetworkConfigToDB client  balance-network  channel_name  mychannel
+error when connecting to db: TypeError: Cannot read property 'on' of undefined
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:95:16)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Synchronizer Error >>>>>>>>>>>>>>>>>>>>>
+TypeError: "callback" argument must be a function
+    at setTimeout (timers.js:450:11)
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:112:5)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing client processor >>>>>>>>>>>>>>>>>>>>>
+Received kill signal, shutting down gracefully
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing explorer  >>>>>>>>>>>>>>>>>>>>>
+Closed out connections
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing client processor >>>>>>>>>>>>>>>>>>>>>
+false 'ssl-certs' '/home/sanket/Documents/test_explorer_server/blockchain-explorer/ssl-certs'
+error when connecting to db: { error: password authentication failed for user "sanket"
+    at Connection.parseE (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:604:11)
+    at Connection.parseMessage (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:401:19)
+    at Socket.<anonymous> (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:121:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:601:20)
+  name: 'error',
+  length: 102,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '328',
+  routine: 'auth_failed' }
+******* Initialization started for hyperledger fabric platform ******, { 'balance-transfer-network': 
+   { name: 'balance-network',
+     profile: './connection-profile/balance-transfer.json' } }
+ client_configs.name  balance-network  client_configs.profile  ./connection-profile/balance-transfer.json
+FabricUtils.createFabricClient 
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  mychannel
+An identity for the admin user: admin already exists in the wallet
+initializeChannelFromDiscover  mychannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer2.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer2.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer3.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer3.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer4.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer4.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer5.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer5.example.com:7050 
+
+Channel genesis hash for channel [mychannel] >> c66a7b088752ced876b1c095c50d416d3eda3233db04cf8fa69bd51833390187
+FabricUtils.createDetachClient 
+initializeListener, client_name, client  balance-network { name: 'balance-network',
+  profile: './connection-profile/balance-transfer.json' }
+
+
+Please open web browser to access ：http://localhost:8080/
+
+
+pid is 722
+
+
+error when connecting to db: { error: password authentication failed for user "sanket"
+    at Connection.parseE (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:604:11)
+    at Connection.parseMessage (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:401:19)
+    at Socket.<anonymous> (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:121:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:601:20)
+  name: 'error',
+  length: 102,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '328',
+  routine: 'auth_failed' }
+
+Sync process is started for the network : [balance-transfer-network] and client : [balance-network]
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  mychannel
+(node:745) DeprecationWarning: grpc.load: Use the @grpc/proto-loader module with grpc.loadPackageDefinition instead
+An identity for the admin user: admin already exists in the wallet
+error when connecting to db: TypeError: Cannot read property 'on' of undefined
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:95:16)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Explorer Error >>>>>>>>>>>>>>>>>>>>>
+TypeError: "callback" argument must be a function
+    at setTimeout (timers.js:450:11)
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:112:5)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+initializeChannelFromDiscover  mychannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer2.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer2.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer3.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer3.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer4.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer4.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer5.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer5.example.com:7050 
+
+Channel genesis hash for channel [mychannel] >> c66a7b088752ced876b1c095c50d416d3eda3233db04cf8fa69bd51833390187
+SyncServices.synchNetworkConfigToDB client  balance-network  channel_name  mychannel
+error when connecting to db: TypeError: Cannot read property 'on' of undefined
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:95:16)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Synchronizer Error >>>>>>>>>>>>>>>>>>>>>
+TypeError: "callback" argument must be a function
+    at setTimeout (timers.js:450:11)
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:112:5)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing client processor >>>>>>>>>>>>>>>>>>>>>
+Received kill signal, shutting down gracefully
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing explorer  >>>>>>>>>>>>>>>>>>>>>
+Closed out connections
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing client processor >>>>>>>>>>>>>>>>>>>>>
+false 'ssl-certs' '/home/sanket/Documents/test_explorer_server/blockchain-explorer/ssl-certs'
+error when connecting to db: { error: password authentication failed for user "sanket"
+    at Connection.parseE (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:604:11)
+    at Connection.parseMessage (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:401:19)
+    at Socket.<anonymous> (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:121:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:601:20)
+  name: 'error',
+  length: 102,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '328',
+  routine: 'auth_failed' }
+******* Initialization started for hyperledger fabric platform ******, { 'balance-transfer-network': 
+   { name: 'balance-network',
+     profile: './connection-profile/balance-transfer.json' } }
+ client_configs.name  balance-network  client_configs.profile  ./connection-profile/balance-transfer.json
+FabricUtils.createFabricClient 
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  mychannel
+An identity for the admin user: admin already exists in the wallet
+initializeChannelFromDiscover  mychannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer2.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer2.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer3.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer3.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer4.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer4.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer5.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer5.example.com:7050 
+
+Channel genesis hash for channel [mychannel] >> c66a7b088752ced876b1c095c50d416d3eda3233db04cf8fa69bd51833390187
+FabricUtils.createDetachClient 
+initializeListener, client_name, client  balance-network { name: 'balance-network',
+  profile: './connection-profile/balance-transfer.json' }
+
+
+Please open web browser to access ：http://localhost:8080/
+
+
+pid is 775
+
+
+error when connecting to db: { error: password authentication failed for user "sanket"
+    at Connection.parseE (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:604:11)
+    at Connection.parseMessage (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:401:19)
+    at Socket.<anonymous> (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:121:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:601:20)
+  name: 'error',
+  length: 102,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '328',
+  routine: 'auth_failed' }
+
+Sync process is started for the network : [balance-transfer-network] and client : [balance-network]
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  mychannel
+(node:797) DeprecationWarning: grpc.load: Use the @grpc/proto-loader module with grpc.loadPackageDefinition instead
+An identity for the admin user: admin already exists in the wallet
+error when connecting to db: TypeError: Cannot read property 'on' of undefined
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:95:16)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Explorer Error >>>>>>>>>>>>>>>>>>>>>
+TypeError: "callback" argument must be a function
+    at setTimeout (timers.js:450:11)
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:112:5)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+initializeChannelFromDiscover  mychannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer2.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer2.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer3.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer3.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer4.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer4.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer5.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer5.example.com:7050 
+
+Channel genesis hash for channel [mychannel] >> c66a7b088752ced876b1c095c50d416d3eda3233db04cf8fa69bd51833390187
+SyncServices.synchNetworkConfigToDB client  balance-network  channel_name  mychannel
+error when connecting to db: TypeError: Cannot read property 'on' of undefined
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:95:16)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Synchronizer Error >>>>>>>>>>>>>>>>>>>>>
+TypeError: "callback" argument must be a function
+    at setTimeout (timers.js:450:11)
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:112:5)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing client processor >>>>>>>>>>>>>>>>>>>>>
+Received kill signal, shutting down gracefully
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing explorer  >>>>>>>>>>>>>>>>>>>>>
+Closed out connections
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing client processor >>>>>>>>>>>>>>>>>>>>>
+false 'ssl-certs' '/home/sanket/Documents/test_explorer_server/blockchain-explorer/ssl-certs'
+error when connecting to db: { error: password authentication failed for user "sanket"
+    at Connection.parseE (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:604:11)
+    at Connection.parseMessage (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:401:19)
+    at Socket.<anonymous> (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:121:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:601:20)
+  name: 'error',
+  length: 102,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '328',
+  routine: 'auth_failed' }
+<<<<<<<<<<<<<<<<<<<<<<<<<< Explorer Error >>>>>>>>>>>>>>>>>>>>>
+SyntaxError: Unexpected token } in JSON at position 203
+    at JSON.parse (<anonymous>)
+    at Platform.initialize (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/platform/fabric/Platform.js:59:27)
+    at Explorer.initialize (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/Explorer.js:113:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+error when connecting to db: TypeError: Cannot read property 'on' of undefined
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:95:16)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Explorer Error >>>>>>>>>>>>>>>>>>>>>
+TypeError: "callback" argument must be a function
+    at setTimeout (timers.js:450:11)
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:112:5)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+Received kill signal, shutting down gracefully
+Closed out connections
+false 'ssl-certs' '/home/sanket/Documents/test_explorer_server/blockchain-explorer/ssl-certs'
+error when connecting to db: { error: password authentication failed for user "sanket"
+    at Connection.parseE (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:604:11)
+    at Connection.parseMessage (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:401:19)
+    at Socket.<anonymous> (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:121:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:601:20)
+  name: 'error',
+  length: 102,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '328',
+  routine: 'auth_failed' }
+<<<<<<<<<<<<<<<<<<<<<<<<<< Explorer Error >>>>>>>>>>>>>>>>>>>>>
+SyntaxError: Unexpected token } in JSON at position 203
+    at JSON.parse (<anonymous>)
+    at Platform.initialize (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/platform/fabric/Platform.js:59:27)
+    at Explorer.initialize (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/Explorer.js:113:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+error when connecting to db: TypeError: Cannot read property 'on' of undefined
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:95:16)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Explorer Error >>>>>>>>>>>>>>>>>>>>>
+TypeError: "callback" argument must be a function
+    at setTimeout (timers.js:450:11)
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:112:5)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+Received kill signal, shutting down gracefully
+Closed out connections
+false 'ssl-certs' '/home/sanket/Documents/test_explorer_server/blockchain-explorer/ssl-certs'
+error when connecting to db: { error: password authentication failed for user "sanket"
+    at Connection.parseE (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:604:11)
+    at Connection.parseMessage (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:401:19)
+    at Socket.<anonymous> (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:121:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:601:20)
+  name: 'error',
+  length: 102,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '328',
+  routine: 'auth_failed' }
+<<<<<<<<<<<<<<<<<<<<<<<<<< Explorer Error >>>>>>>>>>>>>>>>>>>>>
+SyntaxError: Unexpected token } in JSON at position 203
+    at JSON.parse (<anonymous>)
+    at Platform.initialize (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/platform/fabric/Platform.js:59:27)
+    at Explorer.initialize (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/Explorer.js:113:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+error when connecting to db: TypeError: Cannot read property 'on' of undefined
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:95:16)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Explorer Error >>>>>>>>>>>>>>>>>>>>>
+TypeError: "callback" argument must be a function
+    at setTimeout (timers.js:450:11)
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:112:5)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+Received kill signal, shutting down gracefully
+Closed out connections
+false 'ssl-certs' '/home/sanket/Documents/test_explorer_server/blockchain-explorer/ssl-certs'
+error when connecting to db: { error: password authentication failed for user "sanket"
+    at Connection.parseE (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:604:11)
+    at Connection.parseMessage (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:401:19)
+    at Socket.<anonymous> (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:121:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:601:20)
+  name: 'error',
+  length: 102,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '328',
+  routine: 'auth_failed' }
+******* Initialization started for hyperledger fabric platform ******, { 'balance-transfer-network': 
+   { name: 'balance-network',
+     profile: './connection-profile/balance-transfer.json',
+     enableAuthentication: true } }
+ client_configs.name  balance-network  client_configs.profile  ./connection-profile/balance-transfer.json
+FabricUtils.createFabricClient 
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  mychannel
+An identity for the admin user: admin already exists in the wallet
+initializeChannelFromDiscover  mychannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer2.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer2.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer3.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer3.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer4.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer4.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer5.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer5.example.com:7050 
+
+Channel genesis hash for channel [mychannel] >> c66a7b088752ced876b1c095c50d416d3eda3233db04cf8fa69bd51833390187
+FabricUtils.createDetachClient 
+initializeListener, client_name, client  balance-network { name: 'balance-network',
+  profile: './connection-profile/balance-transfer.json',
+  enableAuthentication: true }
+
+
+Please open web browser to access ：http://localhost:8080/
+
+
+pid is 992
+
+
+error when connecting to db: { error: password authentication failed for user "sanket"
+    at Connection.parseE (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:604:11)
+    at Connection.parseMessage (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:401:19)
+    at Socket.<anonymous> (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:121:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:601:20)
+  name: 'error',
+  length: 102,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '328',
+  routine: 'auth_failed' }
+
+Sync process is started for the network : [balance-transfer-network] and client : [balance-network]
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  mychannel
+(node:1014) DeprecationWarning: grpc.load: Use the @grpc/proto-loader module with grpc.loadPackageDefinition instead
+An identity for the admin user: admin already exists in the wallet
+error when connecting to db: TypeError: Cannot read property 'on' of undefined
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:95:16)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Explorer Error >>>>>>>>>>>>>>>>>>>>>
+TypeError: "callback" argument must be a function
+    at setTimeout (timers.js:450:11)
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:112:5)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+initializeChannelFromDiscover  mychannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer2.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer2.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer3.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer3.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer4.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer4.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer5.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer5.example.com:7050 
+
+Channel genesis hash for channel [mychannel] >> c66a7b088752ced876b1c095c50d416d3eda3233db04cf8fa69bd51833390187
+SyncServices.synchNetworkConfigToDB client  balance-network  channel_name  mychannel
+error when connecting to db: TypeError: Cannot read property 'on' of undefined
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:95:16)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Synchronizer Error >>>>>>>>>>>>>>>>>>>>>
+TypeError: "callback" argument must be a function
+    at setTimeout (timers.js:450:11)
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:112:5)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing client processor >>>>>>>>>>>>>>>>>>>>>
+Received kill signal, shutting down gracefully
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing explorer  >>>>>>>>>>>>>>>>>>>>>
+Closed out connections
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing client processor >>>>>>>>>>>>>>>>>>>>>
+false 'ssl-certs' '/home/sanket/Documents/test_explorer_server/blockchain-explorer/ssl-certs'
+error when connecting to db: { error: password authentication failed for user "sanket1"
+    at Connection.parseE (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:604:11)
+    at Connection.parseMessage (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:401:19)
+    at Socket.<anonymous> (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:121:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:601:20)
+  name: 'error',
+  length: 103,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '328',
+  routine: 'auth_failed' }
+******* Initialization started for hyperledger fabric platform ******, { 'balance-transfer-network': 
+   { name: 'balance-network',
+     profile: './connection-profile/balance-transfer.json',
+     enableAuthentication: true } }
+ client_configs.name  balance-network  client_configs.profile  ./connection-profile/balance-transfer.json
+FabricUtils.createFabricClient 
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  mychannel
+An identity for the admin user: admin already exists in the wallet
+initializeChannelFromDiscover  mychannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer2.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer2.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer3.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer3.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer4.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer4.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer5.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer5.example.com:7050 
+
+Channel genesis hash for channel [mychannel] >> c66a7b088752ced876b1c095c50d416d3eda3233db04cf8fa69bd51833390187
+FabricUtils.createDetachClient 
+initializeListener, client_name, client  balance-network { name: 'balance-network',
+  profile: './connection-profile/balance-transfer.json',
+  enableAuthentication: true }
+
+
+Please open web browser to access ：http://localhost:8080/
+
+
+pid is 1078
+
+
+error when connecting to db: { error: password authentication failed for user "sanket1"
+    at Connection.parseE (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:604:11)
+    at Connection.parseMessage (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:401:19)
+    at Socket.<anonymous> (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:121:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:601:20)
+  name: 'error',
+  length: 103,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '328',
+  routine: 'auth_failed' }
+
+Sync process is started for the network : [balance-transfer-network] and client : [balance-network]
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  mychannel
+(node:1100) DeprecationWarning: grpc.load: Use the @grpc/proto-loader module with grpc.loadPackageDefinition instead
+An identity for the admin user: admin already exists in the wallet
+error when connecting to db: TypeError: Cannot read property 'on' of undefined
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:95:16)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Explorer Error >>>>>>>>>>>>>>>>>>>>>
+TypeError: "callback" argument must be a function
+    at setTimeout (timers.js:450:11)
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:112:5)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+initializeChannelFromDiscover  mychannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer2.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer2.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer3.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer3.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer4.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer4.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer5.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer5.example.com:7050 
+
+Channel genesis hash for channel [mychannel] >> c66a7b088752ced876b1c095c50d416d3eda3233db04cf8fa69bd51833390187
+SyncServices.synchNetworkConfigToDB client  balance-network  channel_name  mychannel
+error when connecting to db: TypeError: Cannot read property 'on' of undefined
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:95:16)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Synchronizer Error >>>>>>>>>>>>>>>>>>>>>
+TypeError: "callback" argument must be a function
+    at setTimeout (timers.js:450:11)
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:112:5)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing client processor >>>>>>>>>>>>>>>>>>>>>
+Received kill signal, shutting down gracefully
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing explorer  >>>>>>>>>>>>>>>>>>>>>
+Closed out connections
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing client processor >>>>>>>>>>>>>>>>>>>>>
+false 'ssl-certs' '/home/sanket/Documents/test_explorer_server/blockchain-explorer/ssl-certs'
+error when connecting to db: { error: password authentication failed for user "sanket1"
+    at Connection.parseE (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:604:11)
+    at Connection.parseMessage (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:401:19)
+    at Socket.<anonymous> (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:121:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:601:20)
+  name: 'error',
+  length: 103,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '328',
+  routine: 'auth_failed' }
+******* Initialization started for hyperledger fabric platform ******, { 'balance-transfer-network': 
+   { name: 'balance-network',
+     profile: './connection-profile/balance-transfer.json',
+     enableAuthentication: true } }
+ client_configs.name  balance-network  client_configs.profile  ./connection-profile/balance-transfer.json
+FabricUtils.createFabricClient 
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  mychannel
+An identity for the admin user: admin already exists in the wallet
+initializeChannelFromDiscover  mychannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer2.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer2.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer3.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer3.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer4.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer4.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer5.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer5.example.com:7050 
+
+Channel genesis hash for channel [mychannel] >> c66a7b088752ced876b1c095c50d416d3eda3233db04cf8fa69bd51833390187
+FabricUtils.createDetachClient 
+initializeListener, client_name, client  balance-network { name: 'balance-network',
+  profile: './connection-profile/balance-transfer.json',
+  enableAuthentication: true }
+
+
+Please open web browser to access ：http://localhost:8080/
+
+
+pid is 1514
+
+
+error when connecting to db: { error: password authentication failed for user "sanket1"
+    at Connection.parseE (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:604:11)
+    at Connection.parseMessage (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:401:19)
+    at Socket.<anonymous> (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:121:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:601:20)
+  name: 'error',
+  length: 103,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '328',
+  routine: 'auth_failed' }
+
+Sync process is started for the network : [balance-transfer-network] and client : [balance-network]
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  mychannel
+(node:1536) DeprecationWarning: grpc.load: Use the @grpc/proto-loader module with grpc.loadPackageDefinition instead
+An identity for the admin user: admin already exists in the wallet
+error when connecting to db: TypeError: Cannot read property 'on' of undefined
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:95:16)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Explorer Error >>>>>>>>>>>>>>>>>>>>>
+TypeError: "callback" argument must be a function
+    at setTimeout (timers.js:450:11)
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:112:5)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+initializeChannelFromDiscover  mychannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer2.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer2.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer3.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer3.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer4.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer4.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer5.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer5.example.com:7050 
+
+Channel genesis hash for channel [mychannel] >> c66a7b088752ced876b1c095c50d416d3eda3233db04cf8fa69bd51833390187
+SyncServices.synchNetworkConfigToDB client  balance-network  channel_name  mychannel
+error when connecting to db: TypeError: Cannot read property 'on' of undefined
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:95:16)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Synchronizer Error >>>>>>>>>>>>>>>>>>>>>
+TypeError: "callback" argument must be a function
+    at setTimeout (timers.js:450:11)
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:112:5)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing client processor >>>>>>>>>>>>>>>>>>>>>
+Received kill signal, shutting down gracefully
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing explorer  >>>>>>>>>>>>>>>>>>>>>
+Closed out connections
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing client processor >>>>>>>>>>>>>>>>>>>>>
+false 'ssl-certs' '/home/sanket/Documents/test_explorer_server/blockchain-explorer/ssl-certs'
+error when connecting to db: { error: password authentication failed for user "sanket1"
+    at Connection.parseE (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:604:11)
+    at Connection.parseMessage (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:401:19)
+    at Socket.<anonymous> (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:121:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:601:20)
+  name: 'error',
+  length: 103,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '328',
+  routine: 'auth_failed' }
+******* Initialization started for hyperledger fabric platform ******, { 'balance-transfer-network': 
+   { name: 'balance-network',
+     profile: './connection-profile/balance-transfer.json',
+     enableAuthentication: true } }
+ client_configs.name  balance-network  client_configs.profile  ./connection-profile/balance-transfer.json
+FabricUtils.createFabricClient 
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  mychannel
+An identity for the admin user: admin already exists in the wallet
+initializeChannelFromDiscover  mychannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer2.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer2.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer3.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer3.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer4.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer4.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer5.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer5.example.com:7050 
+
+Channel genesis hash for channel [mychannel] >> c66a7b088752ced876b1c095c50d416d3eda3233db04cf8fa69bd51833390187
+FabricUtils.createDetachClient 
+initializeListener, client_name, client  balance-network { name: 'balance-network',
+  profile: './connection-profile/balance-transfer.json',
+  enableAuthentication: true }
+
+
+Please open web browser to access ：http://localhost:8080/
+
+
+pid is 1572
+
+
+error when connecting to db: { error: password authentication failed for user "sanket1"
+    at Connection.parseE (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:604:11)
+    at Connection.parseMessage (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:401:19)
+    at Socket.<anonymous> (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:121:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:601:20)
+  name: 'error',
+  length: 103,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '328',
+  routine: 'auth_failed' }
+
+Sync process is started for the network : [balance-transfer-network] and client : [balance-network]
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  mychannel
+(node:1594) DeprecationWarning: grpc.load: Use the @grpc/proto-loader module with grpc.loadPackageDefinition instead
+An identity for the admin user: admin already exists in the wallet
+error when connecting to db: TypeError: Cannot read property 'on' of undefined
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:95:16)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Explorer Error >>>>>>>>>>>>>>>>>>>>>
+TypeError: "callback" argument must be a function
+    at setTimeout (timers.js:450:11)
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:112:5)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+initializeChannelFromDiscover  mychannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer2.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer2.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer3.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer3.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer4.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer4.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer5.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer5.example.com:7050 
+
+Channel genesis hash for channel [mychannel] >> c66a7b088752ced876b1c095c50d416d3eda3233db04cf8fa69bd51833390187
+SyncServices.synchNetworkConfigToDB client  balance-network  channel_name  mychannel
+error when connecting to db: TypeError: Cannot read property 'on' of undefined
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:95:16)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Synchronizer Error >>>>>>>>>>>>>>>>>>>>>
+TypeError: "callback" argument must be a function
+    at setTimeout (timers.js:450:11)
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:112:5)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing client processor >>>>>>>>>>>>>>>>>>>>>
+Received kill signal, shutting down gracefully
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing explorer  >>>>>>>>>>>>>>>>>>>>>
+Closed out connections
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing client processor >>>>>>>>>>>>>>>>>>>>>
+false 'ssl-certs' '/home/sanket/Documents/test_explorer_server/blockchain-explorer/ssl-certs'
+error when connecting to db: { error: password authentication failed for user "sanket1"
+    at Connection.parseE (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:604:11)
+    at Connection.parseMessage (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:401:19)
+    at Socket.<anonymous> (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:121:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:601:20)
+  name: 'error',
+  length: 103,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '328',
+  routine: 'auth_failed' }
+******* Initialization started for hyperledger fabric platform ******, { 'balance-transfer-network': 
+   { name: 'balance-network',
+     profile: './connection-profile/balance-transfer.json',
+     enableAuthentication: true } }
+ client_configs.name  balance-network  client_configs.profile  ./connection-profile/balance-transfer.json
+FabricUtils.createFabricClient 
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  mychannel
+error when connecting to db: TypeError: Cannot read property 'on' of undefined
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:95:16)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Explorer Error >>>>>>>>>>>>>>>>>>>>>
+TypeError: "callback" argument must be a function
+    at setTimeout (timers.js:450:11)
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:112:5)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+An identity for the admin user: admin already exists in the wallet
+initializeChannelFromDiscover  mychannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer2.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer2.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer3.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer3.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer4.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer4.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer5.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer5.example.com:7050 
+
+Channel genesis hash for channel [mychannel] >> c66a7b088752ced876b1c095c50d416d3eda3233db04cf8fa69bd51833390187
+FabricUtils.createDetachClient 
+initializeListener, client_name, client  balance-network { name: 'balance-network',
+  profile: './connection-profile/balance-transfer.json',
+  enableAuthentication: true }
+
+
+Please open web browser to access ：http://localhost:8080/
+
+
+pid is 2803
+
+
+error when connecting to db: { error: password authentication failed for user "sanket1"
+    at Connection.parseE (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:604:11)
+    at Connection.parseMessage (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:401:19)
+    at Socket.<anonymous> (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:121:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:601:20)
+  name: 'error',
+  length: 103,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '328',
+  routine: 'auth_failed' }
+Received kill signal, shutting down gracefully
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing explorer  >>>>>>>>>>>>>>>>>>>>>
+Closed out connections
+
+Sync process is started for the network : [balance-transfer-network] and client : [balance-network]
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  mychannel
+(node:2846) DeprecationWarning: grpc.load: Use the @grpc/proto-loader module with grpc.loadPackageDefinition instead
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing client processor >>>>>>>>>>>>>>>>>>>>>
+An identity for the admin user: admin already exists in the wallet
+initializeChannelFromDiscover  mychannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer2.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer2.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer3.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer3.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer4.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer4.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer5.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer5.example.com:7050 
+
+Channel genesis hash for channel [mychannel] >> c66a7b088752ced876b1c095c50d416d3eda3233db04cf8fa69bd51833390187
+SyncServices.synchNetworkConfigToDB client  balance-network  channel_name  mychannel
+<<<<<<<<<<<<<<<<<<<<<<<<<< Synchronizer Error >>>>>>>>>>>>>>>>>>>>>
+Error: Client was closed and is not queryable
+    at process.nextTick (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/client.js:528:25)
+    at _combinedTickCallback (internal/process/next_tick.js:132:7)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing client processor >>>>>>>>>>>>>>>>>>>>>
+error when connecting to db: TypeError: Cannot read property 'on' of undefined
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:95:16)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Synchronizer Error >>>>>>>>>>>>>>>>>>>>>
+TypeError: "callback" argument must be a function
+    at setTimeout (timers.js:450:11)
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:112:5)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing client processor >>>>>>>>>>>>>>>>>>>>>
+false 'ssl-certs' '/home/sanket/Documents/test_explorer_server/blockchain-explorer/ssl-certs'
+error when connecting to db: { error: password authentication failed for user "sanket1"
+    at Connection.parseE (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:604:11)
+    at Connection.parseMessage (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:401:19)
+    at Socket.<anonymous> (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:121:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:601:20)
+  name: 'error',
+  length: 103,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '328',
+  routine: 'auth_failed' }
+******* Initialization started for hyperledger fabric platform ******, { 'balance-transfer-network': 
+   { name: 'balance-network',
+     profile: './connection-profile/balance-transfer.json',
+     enableAuthentication: true } }
+ client_configs.name  balance-network  client_configs.profile  ./connection-profile/balance-transfer.json
+FabricUtils.createFabricClient 
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  mychannel
+An identity for the admin user: admin already exists in the wallet
+initializeChannelFromDiscover  mychannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer2.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer2.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer3.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer3.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer4.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer4.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer5.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer5.example.com:7050 
+
+Channel genesis hash for channel [mychannel] >> c66a7b088752ced876b1c095c50d416d3eda3233db04cf8fa69bd51833390187
+FabricUtils.createDetachClient 
+initializeListener, client_name, client  balance-network { name: 'balance-network',
+  profile: './connection-profile/balance-transfer.json',
+  enableAuthentication: true }
+
+
+Please open web browser to access ：http://localhost:8080/
+
+
+pid is 2955
+
+
+error when connecting to db: { error: password authentication failed for user "sanket1"
+    at Connection.parseE (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:604:11)
+    at Connection.parseMessage (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:401:19)
+    at Socket.<anonymous> (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:121:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:601:20)
+  name: 'error',
+  length: 103,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '328',
+  routine: 'auth_failed' }
+error when connecting to db: TypeError: Cannot read property 'on' of undefined
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:95:16)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Explorer Error >>>>>>>>>>>>>>>>>>>>>
+TypeError: "callback" argument must be a function
+    at setTimeout (timers.js:450:11)
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:112:5)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+
+Sync process is started for the network : [balance-transfer-network] and client : [balance-network]
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  mychannel
+(node:2978) DeprecationWarning: grpc.load: Use the @grpc/proto-loader module with grpc.loadPackageDefinition instead
+An identity for the admin user: admin already exists in the wallet
+initializeChannelFromDiscover  mychannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer2.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer2.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer3.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer3.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer4.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer4.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer5.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer5.example.com:7050 
+
+Channel genesis hash for channel [mychannel] >> c66a7b088752ced876b1c095c50d416d3eda3233db04cf8fa69bd51833390187
+SyncServices.synchNetworkConfigToDB client  balance-network  channel_name  mychannel
+error when connecting to db: TypeError: Cannot read property 'on' of undefined
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:95:16)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Synchronizer Error >>>>>>>>>>>>>>>>>>>>>
+TypeError: "callback" argument must be a function
+    at setTimeout (timers.js:450:11)
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:112:5)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing client processor >>>>>>>>>>>>>>>>>>>>>
+Received kill signal, shutting down gracefully
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing explorer  >>>>>>>>>>>>>>>>>>>>>
+Closed out connections
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing client processor >>>>>>>>>>>>>>>>>>>>>
+false 'ssl-certs' '/home/sanket/Documents/test_explorer_server/blockchain-explorer/ssl-certs'
+error when connecting to db: { error: password authentication failed for user "sanket1"
+    at Connection.parseE (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:604:11)
+    at Connection.parseMessage (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:401:19)
+    at Socket.<anonymous> (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:121:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:601:20)
+  name: 'error',
+  length: 103,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '328',
+  routine: 'auth_failed' }
+******* Initialization started for hyperledger fabric platform ******, { 'balance-transfer-network': 
+   { name: 'balance-network',
+     profile: './connection-profile/balance-transfer.json',
+     enableAuthentication: true } }
+ client_configs.name  balance-network  client_configs.profile  ./connection-profile/balance-transfer.json
+FabricUtils.createFabricClient 
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  mychannel
+An identity for the admin user: admin already exists in the wallet
+initializeChannelFromDiscover  mychannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer2.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer2.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer3.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer3.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer4.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer4.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer5.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer5.example.com:7050 
+
+Channel genesis hash for channel [mychannel] >> c66a7b088752ced876b1c095c50d416d3eda3233db04cf8fa69bd51833390187
+FabricUtils.createDetachClient 
+initializeListener, client_name, client  balance-network { name: 'balance-network',
+  profile: './connection-profile/balance-transfer.json',
+  enableAuthentication: true }
+
+
+Please open web browser to access ：http://localhost:8080/
+
+
+pid is 3009
+
+
+error when connecting to db: { error: password authentication failed for user "sanket1"
+    at Connection.parseE (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:604:11)
+    at Connection.parseMessage (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:401:19)
+    at Socket.<anonymous> (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:121:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:601:20)
+  name: 'error',
+  length: 103,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '328',
+  routine: 'auth_failed' }
+
+Sync process is started for the network : [balance-transfer-network] and client : [balance-network]
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  mychannel
+(node:3033) DeprecationWarning: grpc.load: Use the @grpc/proto-loader module with grpc.loadPackageDefinition instead
+An identity for the admin user: admin already exists in the wallet
+error when connecting to db: TypeError: Cannot read property 'on' of undefined
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:95:16)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Explorer Error >>>>>>>>>>>>>>>>>>>>>
+TypeError: "callback" argument must be a function
+    at setTimeout (timers.js:450:11)
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:112:5)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+initializeChannelFromDiscover  mychannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer2.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer2.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer3.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer3.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer4.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer4.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer5.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer5.example.com:7050 
+
+Channel genesis hash for channel [mychannel] >> c66a7b088752ced876b1c095c50d416d3eda3233db04cf8fa69bd51833390187
+SyncServices.synchNetworkConfigToDB client  balance-network  channel_name  mychannel
+error when connecting to db: TypeError: Cannot read property 'on' of undefined
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:95:16)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Synchronizer Error >>>>>>>>>>>>>>>>>>>>>
+TypeError: "callback" argument must be a function
+    at setTimeout (timers.js:450:11)
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:112:5)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing client processor >>>>>>>>>>>>>>>>>>>>>
+Received kill signal, shutting down gracefully
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing explorer  >>>>>>>>>>>>>>>>>>>>>
+Closed out connections
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing client processor >>>>>>>>>>>>>>>>>>>>>
+false 'ssl-certs' '/home/sanket/Documents/test_explorer_server/blockchain-explorer/ssl-certs'
+error when connecting to db: { error: password authentication failed for user "sanket1"
+    at Connection.parseE (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:604:11)
+    at Connection.parseMessage (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:401:19)
+    at Socket.<anonymous> (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:121:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:601:20)
+  name: 'error',
+  length: 103,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '328',
+  routine: 'auth_failed' }
+******* Initialization started for hyperledger fabric platform ******, { 'balance-transfer-network': 
+   { name: 'balance-network',
+     profile: './connection-profile/balance-transfer.json',
+     enableAuthentication: true } }
+ client_configs.name  balance-network  client_configs.profile  ./connection-profile/balance-transfer.json
+FabricUtils.createFabricClient 
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  mychannel
+An identity for the admin user: admin already exists in the wallet
+initializeChannelFromDiscover  mychannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer2.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer2.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer3.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer3.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer4.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer4.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer5.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer5.example.com:7050 
+
+Channel genesis hash for channel [mychannel] >> c66a7b088752ced876b1c095c50d416d3eda3233db04cf8fa69bd51833390187
+FabricUtils.createDetachClient 
+initializeListener, client_name, client  balance-network { name: 'balance-network',
+  profile: './connection-profile/balance-transfer.json',
+  enableAuthentication: true }
+
+
+Please open web browser to access ：http://localhost:8080/
+
+
+pid is 3133
+
+
+error when connecting to db: { error: password authentication failed for user "sanket1"
+    at Connection.parseE (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:604:11)
+    at Connection.parseMessage (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:401:19)
+    at Socket.<anonymous> (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:121:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:601:20)
+  name: 'error',
+  length: 103,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '328',
+  routine: 'auth_failed' }
+
+Sync process is started for the network : [balance-transfer-network] and client : [balance-network]
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  mychannel
+(node:3160) DeprecationWarning: grpc.load: Use the @grpc/proto-loader module with grpc.loadPackageDefinition instead
+An identity for the admin user: admin already exists in the wallet
+error when connecting to db: TypeError: Cannot read property 'on' of undefined
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:95:16)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Explorer Error >>>>>>>>>>>>>>>>>>>>>
+TypeError: "callback" argument must be a function
+    at setTimeout (timers.js:450:11)
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:112:5)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+initializeChannelFromDiscover  mychannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer2.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer2.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer3.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer3.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer4.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer4.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer5.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer5.example.com:7050 
+
+Channel genesis hash for channel [mychannel] >> c66a7b088752ced876b1c095c50d416d3eda3233db04cf8fa69bd51833390187
+SyncServices.synchNetworkConfigToDB client  balance-network  channel_name  mychannel
+error when connecting to db: TypeError: Cannot read property 'on' of undefined
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:95:16)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Synchronizer Error >>>>>>>>>>>>>>>>>>>>>
+TypeError: "callback" argument must be a function
+    at setTimeout (timers.js:450:11)
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:112:5)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing client processor >>>>>>>>>>>>>>>>>>>>>
+Received kill signal, shutting down gracefully
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing explorer  >>>>>>>>>>>>>>>>>>>>>
+Closed out connections
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing client processor >>>>>>>>>>>>>>>>>>>>>
+false 'ssl-certs' '/home/sanket/Documents/test_explorer_server/blockchain-explorer/ssl-certs'
+error when connecting to db: { error: password authentication failed for user "sanket1"
+    at Connection.parseE (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:604:11)
+    at Connection.parseMessage (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:401:19)
+    at Socket.<anonymous> (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:121:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:601:20)
+  name: 'error',
+  length: 103,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '328',
+  routine: 'auth_failed' }
+******* Initialization started for hyperledger fabric platform ******, { 'balance-transfer-network': 
+   { name: 'balance-network',
+     profile: './connection-profile/balance-transfer.json',
+     enableAuthentication: true } }
+ client_configs.name  balance-network  client_configs.profile  ./connection-profile/balance-transfer.json
+FabricUtils.createFabricClient 
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  mychannel
+An identity for the admin user: admin already exists in the wallet
+initializeChannelFromDiscover  mychannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer2.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer2.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer3.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer3.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer4.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer4.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer5.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer5.example.com:7050 
+
+Channel genesis hash for channel [mychannel] >> c66a7b088752ced876b1c095c50d416d3eda3233db04cf8fa69bd51833390187
+FabricUtils.createDetachClient 
+initializeListener, client_name, client  balance-network { name: 'balance-network',
+  profile: './connection-profile/balance-transfer.json',
+  enableAuthentication: true }
+
+
+Please open web browser to access ：http://localhost:8080/
+
+
+pid is 3216
+
+
+error when connecting to db: { error: password authentication failed for user "sanket1"
+    at Connection.parseE (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:604:11)
+    at Connection.parseMessage (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:401:19)
+    at Socket.<anonymous> (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:121:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:601:20)
+  name: 'error',
+  length: 103,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '328',
+  routine: 'auth_failed' }
+error when connecting to db: TypeError: Cannot read property 'on' of undefined
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:95:16)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Explorer Error >>>>>>>>>>>>>>>>>>>>>
+TypeError: "callback" argument must be a function
+    at setTimeout (timers.js:450:11)
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:112:5)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+
+Sync process is started for the network : [balance-transfer-network] and client : [balance-network]
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  mychannel
+(node:3246) DeprecationWarning: grpc.load: Use the @grpc/proto-loader module with grpc.loadPackageDefinition instead
+An identity for the admin user: admin already exists in the wallet
+initializeChannelFromDiscover  mychannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer2.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer2.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer3.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer3.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer4.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer4.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer5.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer5.example.com:7050 
+
+Channel genesis hash for channel [mychannel] >> c66a7b088752ced876b1c095c50d416d3eda3233db04cf8fa69bd51833390187
+SyncServices.synchNetworkConfigToDB client  balance-network  channel_name  mychannel
+error when connecting to db: TypeError: Cannot read property 'on' of undefined
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:95:16)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Synchronizer Error >>>>>>>>>>>>>>>>>>>>>
+TypeError: "callback" argument must be a function
+    at setTimeout (timers.js:450:11)
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:112:5)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing client processor >>>>>>>>>>>>>>>>>>>>>
+Received kill signal, shutting down gracefully
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing explorer  >>>>>>>>>>>>>>>>>>>>>
+Closed out connections
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing client processor >>>>>>>>>>>>>>>>>>>>>
+false 'ssl-certs' '/home/sanket/Documents/test_explorer_server/blockchain-explorer/ssl-certs'
+error when connecting to db: { error: password authentication failed for user "sanket1"
+    at Connection.parseE (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:604:11)
+    at Connection.parseMessage (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:401:19)
+    at Socket.<anonymous> (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:121:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:601:20)
+  name: 'error',
+  length: 103,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '328',
+  routine: 'auth_failed' }
+******* Initialization started for hyperledger fabric platform ******, { 'balance-transfer-network': 
+   { name: 'balance-network',
+     profile: './connection-profile/balance-transfer.json',
+     enableAuthentication: true } }
+ client_configs.name  balance-network  client_configs.profile  ./connection-profile/balance-transfer.json
+FabricUtils.createFabricClient 
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  mychannel
+An identity for the admin user: admin already exists in the wallet
+initializeChannelFromDiscover  mychannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer2.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer2.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer3.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer3.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer4.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer4.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer5.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer5.example.com:7050 
+
+Channel genesis hash for channel [mychannel] >> c66a7b088752ced876b1c095c50d416d3eda3233db04cf8fa69bd51833390187
+FabricUtils.createDetachClient 
+initializeListener, client_name, client  balance-network { name: 'balance-network',
+  profile: './connection-profile/balance-transfer.json',
+  enableAuthentication: true }
+
+
+Please open web browser to access ：http://localhost:8080/
+
+
+pid is 3337
+
+
+error when connecting to db: { error: password authentication failed for user "sanket1"
+    at Connection.parseE (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:604:11)
+    at Connection.parseMessage (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:401:19)
+    at Socket.<anonymous> (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:121:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:601:20)
+  name: 'error',
+  length: 103,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '328',
+  routine: 'auth_failed' }
+
+Sync process is started for the network : [balance-transfer-network] and client : [balance-network]
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  mychannel
+(node:3359) DeprecationWarning: grpc.load: Use the @grpc/proto-loader module with grpc.loadPackageDefinition instead
+An identity for the admin user: admin already exists in the wallet
+error when connecting to db: TypeError: Cannot read property 'on' of undefined
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:95:16)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Explorer Error >>>>>>>>>>>>>>>>>>>>>
+TypeError: "callback" argument must be a function
+    at setTimeout (timers.js:450:11)
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:112:5)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+initializeChannelFromDiscover  mychannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer2.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer2.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer3.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer3.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer4.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer4.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer5.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer5.example.com:7050 
+
+Channel genesis hash for channel [mychannel] >> c66a7b088752ced876b1c095c50d416d3eda3233db04cf8fa69bd51833390187
+SyncServices.synchNetworkConfigToDB client  balance-network  channel_name  mychannel
+error when connecting to db: TypeError: Cannot read property 'on' of undefined
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:95:16)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Synchronizer Error >>>>>>>>>>>>>>>>>>>>>
+TypeError: "callback" argument must be a function
+    at setTimeout (timers.js:450:11)
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:112:5)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing client processor >>>>>>>>>>>>>>>>>>>>>
+Received kill signal, shutting down gracefully
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing explorer  >>>>>>>>>>>>>>>>>>>>>
+Closed out connections
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing client processor >>>>>>>>>>>>>>>>>>>>>
+false 'ssl-certs' '/home/sanket/Documents/test_explorer_server/blockchain-explorer/ssl-certs'
+error when connecting to db: { error: password authentication failed for user "sanket1"
+    at Connection.parseE (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:604:11)
+    at Connection.parseMessage (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:401:19)
+    at Socket.<anonymous> (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:121:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:601:20)
+  name: 'error',
+  length: 103,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '328',
+  routine: 'auth_failed' }
+******* Initialization started for hyperledger fabric platform ******, { 'balance-transfer-network': 
+   { name: 'balance-network',
+     profile: './connection-profile/balance-transfer.json',
+     enableAuthentication: false } }
+ client_configs.name  balance-network  client_configs.profile  ./connection-profile/balance-transfer.json
+FabricUtils.createFabricClient 
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  mychannel
+An identity for the admin user: admin already exists in the wallet
+initializeChannelFromDiscover  mychannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer2.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer2.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer3.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer3.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer4.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer4.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer5.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer5.example.com:7050 
+
+Channel genesis hash for channel [mychannel] >> c66a7b088752ced876b1c095c50d416d3eda3233db04cf8fa69bd51833390187
+FabricUtils.createDetachClient 
+initializeListener, client_name, client  balance-network { name: 'balance-network',
+  profile: './connection-profile/balance-transfer.json',
+  enableAuthentication: false }
+
+
+Please open web browser to access ：http://localhost:8080/
+
+
+pid is 3418
+
+
+error when connecting to db: { error: password authentication failed for user "sanket1"
+    at Connection.parseE (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:604:11)
+    at Connection.parseMessage (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:401:19)
+    at Socket.<anonymous> (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:121:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:601:20)
+  name: 'error',
+  length: 103,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '328',
+  routine: 'auth_failed' }
+error when connecting to db: TypeError: Cannot read property 'on' of undefined
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:95:16)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Explorer Error >>>>>>>>>>>>>>>>>>>>>
+TypeError: "callback" argument must be a function
+    at setTimeout (timers.js:450:11)
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:112:5)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+
+Sync process is started for the network : [balance-transfer-network] and client : [balance-network]
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  mychannel
+(node:3446) DeprecationWarning: grpc.load: Use the @grpc/proto-loader module with grpc.loadPackageDefinition instead
+An identity for the admin user: admin already exists in the wallet
+initializeChannelFromDiscover  mychannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer2.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer2.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer3.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer3.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer4.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer4.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer5.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer5.example.com:7050 
+
+Channel genesis hash for channel [mychannel] >> c66a7b088752ced876b1c095c50d416d3eda3233db04cf8fa69bd51833390187
+SyncServices.synchNetworkConfigToDB client  balance-network  channel_name  mychannel
+error when connecting to db: TypeError: Cannot read property 'on' of undefined
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:95:16)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Synchronizer Error >>>>>>>>>>>>>>>>>>>>>
+TypeError: "callback" argument must be a function
+    at setTimeout (timers.js:450:11)
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:112:5)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing client processor >>>>>>>>>>>>>>>>>>>>>
+Received kill signal, shutting down gracefully
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing explorer  >>>>>>>>>>>>>>>>>>>>>
+Closed out connections
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing client processor >>>>>>>>>>>>>>>>>>>>>
+false 'ssl-certs' '/home/sanket/Documents/test_explorer_server/blockchain-explorer/ssl-certs'
+error when connecting to db: { error: password authentication failed for user "sanket2"
+    at Connection.parseE (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:604:11)
+    at Connection.parseMessage (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:401:19)
+    at Socket.<anonymous> (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:121:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:601:20)
+  name: 'error',
+  length: 103,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '328',
+  routine: 'auth_failed' }
+******* Initialization started for hyperledger fabric platform ******, { 'balance-transfer-network': 
+   { name: 'balance-network',
+     profile: './connection-profile/balance-transfer.json',
+     enableAuthentication: false } }
+ client_configs.name  balance-network  client_configs.profile  ./connection-profile/balance-transfer.json
+FabricUtils.createFabricClient 
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  mychannel
+An identity for the admin user: admin already exists in the wallet
+initializeChannelFromDiscover  mychannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer2.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer2.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer3.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer3.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer4.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer4.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer5.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer5.example.com:7050 
+
+Channel genesis hash for channel [mychannel] >> c66a7b088752ced876b1c095c50d416d3eda3233db04cf8fa69bd51833390187
+FabricUtils.createDetachClient 
+initializeListener, client_name, client  balance-network { name: 'balance-network',
+  profile: './connection-profile/balance-transfer.json',
+  enableAuthentication: false }
+
+
+Please open web browser to access ：http://localhost:8080/
+
+
+pid is 4325
+
+
+error when connecting to db: { error: password authentication failed for user "sanket2"
+    at Connection.parseE (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:604:11)
+    at Connection.parseMessage (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:401:19)
+    at Socket.<anonymous> (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:121:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:601:20)
+  name: 'error',
+  length: 103,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '328',
+  routine: 'auth_failed' }
+error when connecting to db: TypeError: Cannot read property 'on' of undefined
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:95:16)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Explorer Error >>>>>>>>>>>>>>>>>>>>>
+TypeError: "callback" argument must be a function
+    at setTimeout (timers.js:450:11)
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:112:5)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+
+Sync process is started for the network : [balance-transfer-network] and client : [balance-network]
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  mychannel
+(node:4351) DeprecationWarning: grpc.load: Use the @grpc/proto-loader module with grpc.loadPackageDefinition instead
+An identity for the admin user: admin already exists in the wallet
+initializeChannelFromDiscover  mychannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer2.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer2.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer3.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer3.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer4.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer4.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer5.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer5.example.com:7050 
+
+Channel genesis hash for channel [mychannel] >> c66a7b088752ced876b1c095c50d416d3eda3233db04cf8fa69bd51833390187
+SyncServices.synchNetworkConfigToDB client  balance-network  channel_name  mychannel
+error when connecting to db: TypeError: Cannot read property 'on' of undefined
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:95:16)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Synchronizer Error >>>>>>>>>>>>>>>>>>>>>
+TypeError: "callback" argument must be a function
+    at setTimeout (timers.js:450:11)
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:112:5)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing client processor >>>>>>>>>>>>>>>>>>>>>
+Received kill signal, shutting down gracefully
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing explorer  >>>>>>>>>>>>>>>>>>>>>
+Closed out connections
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing client processor >>>>>>>>>>>>>>>>>>>>>
+false 'ssl-certs' '/home/sanket/Documents/test_explorer_server/blockchain-explorer/ssl-certs'
+error when connecting to db: { error: password authentication failed for user "sanket2"
+    at Connection.parseE (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:604:11)
+    at Connection.parseMessage (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:401:19)
+    at Socket.<anonymous> (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:121:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:601:20)
+  name: 'error',
+  length: 103,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '328',
+  routine: 'auth_failed' }
+******* Initialization started for hyperledger fabric platform ******, { 'balance-transfer-network': 
+   { name: 'balance-network',
+     profile: './connection-profile/balance-transfer.json',
+     enableAuthentication: false } }
+ client_configs.name  balance-network  client_configs.profile  ./connection-profile/balance-transfer.json
+FabricUtils.createFabricClient 
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  mychannel
+An identity for the admin user: admin already exists in the wallet
+initializeChannelFromDiscover  mychannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer2.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer2.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer3.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer3.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer4.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer4.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer5.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer5.example.com:7050 
+
+Channel genesis hash for channel [mychannel] >> c66a7b088752ced876b1c095c50d416d3eda3233db04cf8fa69bd51833390187
+FabricUtils.createDetachClient 
+initializeListener, client_name, client  balance-network { name: 'balance-network',
+  profile: './connection-profile/balance-transfer.json',
+  enableAuthentication: false }
+
+
+Please open web browser to access ：http://localhost:8080/
+
+
+pid is 4437
+
+
+error when connecting to db: { error: password authentication failed for user "sanket2"
+    at Connection.parseE (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:604:11)
+    at Connection.parseMessage (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:401:19)
+    at Socket.<anonymous> (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:121:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:601:20)
+  name: 'error',
+  length: 103,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '328',
+  routine: 'auth_failed' }
+error when connecting to db: TypeError: Cannot read property 'on' of undefined
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:95:16)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Explorer Error >>>>>>>>>>>>>>>>>>>>>
+TypeError: "callback" argument must be a function
+    at setTimeout (timers.js:450:11)
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:112:5)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+
+Sync process is started for the network : [balance-transfer-network] and client : [balance-network]
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  mychannel
+(node:4459) DeprecationWarning: grpc.load: Use the @grpc/proto-loader module with grpc.loadPackageDefinition instead
+An identity for the admin user: admin already exists in the wallet
+initializeChannelFromDiscover  mychannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer2.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer2.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer3.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer3.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer4.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer4.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer5.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer5.example.com:7050 
+
+Channel genesis hash for channel [mychannel] >> c66a7b088752ced876b1c095c50d416d3eda3233db04cf8fa69bd51833390187
+SyncServices.synchNetworkConfigToDB client  balance-network  channel_name  mychannel
+error when connecting to db: TypeError: Cannot read property 'on' of undefined
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:95:16)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Synchronizer Error >>>>>>>>>>>>>>>>>>>>>
+TypeError: "callback" argument must be a function
+    at setTimeout (timers.js:450:11)
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:112:5)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing client processor >>>>>>>>>>>>>>>>>>>>>
+Received kill signal, shutting down gracefully
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing explorer  >>>>>>>>>>>>>>>>>>>>>
+Closed out connections
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing client processor >>>>>>>>>>>>>>>>>>>>>
+false 'ssl-certs' '/home/sanket/Documents/test_explorer_server/blockchain-explorer/ssl-certs'
+error when connecting to db: { error: password authentication failed for user "sanket3"
+    at Connection.parseE (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:604:11)
+    at Connection.parseMessage (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:401:19)
+    at Socket.<anonymous> (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:121:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:601:20)
+  name: 'error',
+  length: 103,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '328',
+  routine: 'auth_failed' }
+******* Initialization started for hyperledger fabric platform ******, { 'first-network': 
+   { name: 'first-network',
+     profile: './connection-profile/first-network.json',
+     enableAuthentication: false } }
+ client_configs.name  first-network  client_configs.profile  ./connection-profile/first-network.json
+FabricUtils.createFabricClient 
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  mychannel
+error when connecting to db: TypeError: Cannot read property 'on' of undefined
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:95:16)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Explorer Error >>>>>>>>>>>>>>>>>>>>>
+TypeError: "callback" argument must be a function
+    at setTimeout (timers.js:450:11)
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:112:5)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+initializeChannelFromDiscover  mychannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer2.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer2.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer3.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer3.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer4.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer4.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer5.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer5.example.com:7050 
+
+Channel genesis hash for channel [mychannel] >> c66a7b088752ced876b1c095c50d416d3eda3233db04cf8fa69bd51833390187
+FabricUtils.createDetachClient 
+initializeListener, client_name, client  first-network { name: 'first-network',
+  profile: './connection-profile/first-network.json',
+  enableAuthentication: false }
+
+
+Please open web browser to access ：http://localhost:8080/
+
+
+pid is 5493
+
+
+error when connecting to db: { error: password authentication failed for user "sanket3"
+    at Connection.parseE (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:604:11)
+    at Connection.parseMessage (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:401:19)
+    at Socket.<anonymous> (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:121:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:601:20)
+  name: 'error',
+  length: 103,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '328',
+  routine: 'auth_failed' }
+Received kill signal, shutting down gracefully
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing explorer  >>>>>>>>>>>>>>>>>>>>>
+Closed out connections
+
+Sync process is started for the network : [first-network] and client : [first-network]
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  mychannel
+(node:5556) DeprecationWarning: grpc.load: Use the @grpc/proto-loader module with grpc.loadPackageDefinition instead
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing client processor >>>>>>>>>>>>>>>>>>>>>
+An identity for the admin user: admin already exists in the wallet
+initializeChannelFromDiscover  mychannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer2.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer2.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer3.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer3.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer4.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer4.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer5.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer5.example.com:7050 
+
+Channel genesis hash for channel [mychannel] >> c66a7b088752ced876b1c095c50d416d3eda3233db04cf8fa69bd51833390187
+SyncServices.synchNetworkConfigToDB client  first-network  channel_name  mychannel
+<<<<<<<<<<<<<<<<<<<<<<<<<< Synchronizer Error >>>>>>>>>>>>>>>>>>>>>
+Error: Client was closed and is not queryable
+    at process.nextTick (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/client.js:528:25)
+    at _combinedTickCallback (internal/process/next_tick.js:132:7)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing client processor >>>>>>>>>>>>>>>>>>>>>
+error when connecting to db: TypeError: Cannot read property 'on' of undefined
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:95:16)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Synchronizer Error >>>>>>>>>>>>>>>>>>>>>
+TypeError: "callback" argument must be a function
+    at setTimeout (timers.js:450:11)
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:112:5)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing client processor >>>>>>>>>>>>>>>>>>>>>
+true 'ssl-certs' '/home/sanket/Documents/test_explorer_server/blockchain-explorer/ssl-certs'
+/home/sanket/Documents/test_explorer_server/blockchain-explorer/main.js:137
+server.on('connection', connection => {
+       ^
+
+TypeError: Cannot read property 'on' of undefined
+    at Object.<anonymous> (/home/sanket/Documents/test_explorer_server/blockchain-explorer/main.js:137:8)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+true 'ssl-certs' '/home/sanket/Documents/test_explorer_server/blockchain-explorer/ssl-certs'
+/home/sanket/Documents/test_explorer_server/blockchain-explorer/main.js:137
+server.on('connection', connection => {
+       ^
+
+TypeError: Cannot read property 'on' of undefined
+    at Object.<anonymous> (/home/sanket/Documents/test_explorer_server/blockchain-explorer/main.js:137:8)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+false 'ssl-certs' '/home/sanket/Documents/test_explorer_server/blockchain-explorer/ssl-certs'
+error when connecting to db: { error: password authentication failed for user "sanket3"
+    at Connection.parseE (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:604:11)
+    at Connection.parseMessage (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:401:19)
+    at Socket.<anonymous> (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:121:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:601:20)
+  name: 'error',
+  length: 103,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '328',
+  routine: 'auth_failed' }
+******* Initialization started for hyperledger fabric platform ******, { 'first-network': 
+   { name: 'first-network',
+     profile: './connection-profile/first-network.json',
+     enableAuthentication: false } }
+ client_configs.name  first-network  client_configs.profile  ./connection-profile/first-network.json
+FabricUtils.createFabricClient 
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  mychannel
+An identity for the admin user: admin already exists in the wallet
+initializeChannelFromDiscover  mychannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer2.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer2.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer3.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer3.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer4.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer4.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer5.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer5.example.com:7050 
+
+Channel genesis hash for channel [mychannel] >> c66a7b088752ced876b1c095c50d416d3eda3233db04cf8fa69bd51833390187
+FabricUtils.createDetachClient 
+initializeListener, client_name, client  first-network { name: 'first-network',
+  profile: './connection-profile/first-network.json',
+  enableAuthentication: false }
+
+
+Please open web browser to access ：http://localhost:8080/
+
+
+pid is 5943
+
+
+error when connecting to db: { error: password authentication failed for user "sanket3"
+    at Connection.parseE (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:604:11)
+    at Connection.parseMessage (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:401:19)
+    at Socket.<anonymous> (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:121:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:601:20)
+  name: 'error',
+  length: 103,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '328',
+  routine: 'auth_failed' }
+
+Sync process is started for the network : [first-network] and client : [first-network]
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  mychannel
+(node:5967) DeprecationWarning: grpc.load: Use the @grpc/proto-loader module with grpc.loadPackageDefinition instead
+An identity for the admin user: admin already exists in the wallet
+error when connecting to db: TypeError: Cannot read property 'on' of undefined
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:95:16)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Explorer Error >>>>>>>>>>>>>>>>>>>>>
+TypeError: "callback" argument must be a function
+    at setTimeout (timers.js:450:11)
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:112:5)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+initializeChannelFromDiscover  mychannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer2.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer2.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer3.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer3.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer4.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer4.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer5.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer5.example.com:7050 
+
+Channel genesis hash for channel [mychannel] >> c66a7b088752ced876b1c095c50d416d3eda3233db04cf8fa69bd51833390187
+SyncServices.synchNetworkConfigToDB client  first-network  channel_name  mychannel
+error when connecting to db: TypeError: Cannot read property 'on' of undefined
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:95:16)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Synchronizer Error >>>>>>>>>>>>>>>>>>>>>
+TypeError: "callback" argument must be a function
+    at setTimeout (timers.js:450:11)
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:112:5)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing client processor >>>>>>>>>>>>>>>>>>>>>
+Received kill signal, shutting down gracefully
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing explorer  >>>>>>>>>>>>>>>>>>>>>
+Closed out connections
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing client processor >>>>>>>>>>>>>>>>>>>>>
+false 'ssl-certs' '/home/sanket/Documents/test_explorer_server/blockchain-explorer/ssl-certs'
+error when connecting to db: { error: password authentication failed for user "sanket3"
+    at Connection.parseE (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:604:11)
+    at Connection.parseMessage (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:401:19)
+    at Socket.<anonymous> (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:121:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:601:20)
+  name: 'error',
+  length: 103,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '328',
+  routine: 'auth_failed' }
+******* Initialization started for hyperledger fabric platform ******, { 'first-network': 
+   { name: 'first-network',
+     profile: './connection-profile/first-network.json',
+     enableAuthentication: false } }
+ client_configs.name  first-network  client_configs.profile  ./connection-profile/first-network.json
+FabricUtils.createFabricClient 
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  mychannel
+An identity for the admin user: admin already exists in the wallet
+initializeChannelFromDiscover  mychannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer2.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer2.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer3.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer3.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer4.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer4.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer5.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer5.example.com:7050 
+
+Channel genesis hash for channel [mychannel] >> c66a7b088752ced876b1c095c50d416d3eda3233db04cf8fa69bd51833390187
+FabricUtils.createDetachClient 
+initializeListener, client_name, client  first-network { name: 'first-network',
+  profile: './connection-profile/first-network.json',
+  enableAuthentication: false }
+
+
+Please open web browser to access ：http://localhost:8080/
+
+
+pid is 6017
+
+
+error when connecting to db: { error: password authentication failed for user "sanket3"
+    at Connection.parseE (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:604:11)
+    at Connection.parseMessage (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:401:19)
+    at Socket.<anonymous> (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/pg/lib/connection.js:121:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:601:20)
+  name: 'error',
+  length: 103,
+  severity: 'FATAL',
+  code: '28P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'auth.c',
+  line: '328',
+  routine: 'auth_failed' }
+
+Sync process is started for the network : [first-network] and client : [first-network]
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  mychannel
+(node:6040) DeprecationWarning: grpc.load: Use the @grpc/proto-loader module with grpc.loadPackageDefinition instead
+An identity for the admin user: admin already exists in the wallet
+error when connecting to db: TypeError: Cannot read property 'on' of undefined
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:95:16)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Explorer Error >>>>>>>>>>>>>>>>>>>>>
+TypeError: "callback" argument must be a function
+    at setTimeout (timers.js:450:11)
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:112:5)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+initializeChannelFromDiscover  mychannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer2.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer2.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer3.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer3.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer4.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer4.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer5.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer5.example.com:7050 
+
+Channel genesis hash for channel [mychannel] >> c66a7b088752ced876b1c095c50d416d3eda3233db04cf8fa69bd51833390187
+SyncServices.synchNetworkConfigToDB client  first-network  channel_name  mychannel
+error when connecting to db: TypeError: Cannot read property 'on' of undefined
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:95:16)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Synchronizer Error >>>>>>>>>>>>>>>>>>>>>
+TypeError: "callback" argument must be a function
+    at setTimeout (timers.js:450:11)
+    at Timeout.handleDisconnect [as _onTimeout] (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/persistence/postgreSQL/PgService.js:112:5)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing client processor >>>>>>>>>>>>>>>>>>>>>
+Received kill signal, shutting down gracefully
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing explorer  >>>>>>>>>>>>>>>>>>>>>
+Closed out connections
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing client processor >>>>>>>>>>>>>>>>>>>>>
+false 'ssl-certs' '/home/sanket/Documents/test_explorer_server/blockchain-explorer/ssl-certs'
+******* Initialization started for hyperledger fabric platform ******, { 'first-network': 
+   { name: 'first-network',
+     profile: './connection-profile/first-network.json',
+     enableAuthentication: false } }
+ client_configs.name  first-network  client_configs.profile  ./connection-profile/first-network.json
+FabricUtils.createFabricClient 
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  mychannel
+An identity for the admin user: admin already exists in the wallet
+initializeChannelFromDiscover  mychannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer2.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer2.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer3.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer3.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer4.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer4.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer5.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer5.example.com:7050 
+
+Channel genesis hash for channel [mychannel] >> c66a7b088752ced876b1c095c50d416d3eda3233db04cf8fa69bd51833390187
+FabricUtils.createDetachClient 
+initializeListener, client_name, client  first-network { name: 'first-network',
+  profile: './connection-profile/first-network.json',
+  enableAuthentication: false }
+
+
+Please open web browser to access ：http://localhost:8080/
+
+
+pid is 9095
+
+
+
+Sync process is started for the network : [first-network] and client : [first-network]
+config.client.tlsEnable  true
+FabricConfig, this.config.channels  mychannel
+(node:9117) DeprecationWarning: grpc.load: Use the @grpc/proto-loader module with grpc.loadPackageDefinition instead
+An identity for the admin user: admin already exists in the wallet
+initializeChannelFromDiscover  mychannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer2.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer2.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer3.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer3.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer4.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer4.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer5.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer5.example.com:7050 
+
+Channel genesis hash for channel [mychannel] >> c66a7b088752ced876b1c095c50d416d3eda3233db04cf8fa69bd51833390187
+SyncServices.synchNetworkConfigToDB client  first-network  channel_name  mychannel
+initializeChannelFromDiscover  mychannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer2.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer2.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer3.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer3.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer4.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer4.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer5.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer5.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer2.example.com:7050
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer3.example.com:7050
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer4.example.com:7050
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer5.example.com:7050
+
+
+Synchronizer pid is 9117
+
+
+saveTransaction  true
+block_row.blocknum  3
+status  true
+saveTransaction  true
+block_row.blocknum  0
+status  true
+saveTransaction  true
+block_row.blocknum  1
+status  true
+saveTransaction  true
+block_row.blocknum  2
+status  true
+req.body { user: 'sanket50', password: 'pass', network: 'first-network' }
+Network: first-network enableAuthentication false
+initializeChannelFromDiscover  mychannel
+getBlockAndTxList.byOrgs  false
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer2.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer2.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer3.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer3.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer4.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer4.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer5.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer5.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer2.example.com:7050
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer3.example.com:7050
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer4.example.com:7050
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer5.example.com:7050
+initializeChannelFromDiscover  mychannel
+initializeChannelFromDiscover  mychannel
+initializeChannelFromDiscover  mychannel
+ item ------------>  { chaincodename: 'mycc',
+  channelname: 'mychannel',
+  version: 'v0',
+  channel_genesis_hash: 'c66a7b088752ced876b1c095c50d416d3eda3233db04cf8fa69bd51833390187',
+  path: 'github.com/example_cc/go',
+  c: 0 }
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer2.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer2.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer3.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer3.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer4.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer4.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer5.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer5.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer2.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer2.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer3.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer3.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer4.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer4.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer5.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer5.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer2.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer2.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer3.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer3.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer4.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer4.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer5.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer5.example.com:7050 
+
+getTxList.byOrgs  false
+initializeChannelFromDiscover  mychannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer2.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer2.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer3.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer3.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer4.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer4.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer5.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer5.example.com:7050 
+
+initializeChannelFromDiscover  mychannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer2.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer2.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer3.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer3.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer4.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer4.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer5.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer5.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer2.example.com:7050
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer3.example.com:7050
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer4.example.com:7050
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer5.example.com:7050
+initializeChannelFromDiscover  mychannel
+initializeChannelFromDiscover  mychannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer2.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer2.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer3.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer3.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer4.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer4.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer5.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer5.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer2.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer2.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer3.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer3.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer4.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer4.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer5.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer5.example.com:7050 
+
+initializeChannelFromDiscover  mychannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer2.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer2.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer3.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer3.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer4.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer4.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer5.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer5.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer2.example.com:7050
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer3.example.com:7050
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer4.example.com:7050
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer5.example.com:7050
+initializeChannelFromDiscover  mychannel
+initializeChannelFromDiscover  mychannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer2.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer2.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer3.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer3.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer4.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer4.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer5.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer5.example.com:7050 
+
+initializeChannelFromDiscover  mychannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer2.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer2.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer3.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer3.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer4.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer4.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer5.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer5.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer2.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer2.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer3.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer3.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer4.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer4.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer5.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer5.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer2.example.com:7050
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer3.example.com:7050
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer4.example.com:7050
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer5.example.com:7050
+initializeChannelFromDiscover  mychannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer2.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer2.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer3.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer3.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer4.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer4.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer5.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer5.example.com:7050 
+
+Updating the client network and other details to DB
+SyncServices.synchNetworkConfigToDB client  first-network  channel_name  mychannel
+initializeChannelFromDiscover  mychannel
+ FabricClient.discover_results  endpoint  { host: 'orderer.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer2.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer2.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer3.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer3.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer4.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer4.example.com:7050 
+
+ FabricClient.discover_results  endpoint  { host: 'orderer5.example.com', port: 7050 }
+
+initializeChannelFromDiscover.discoveryProtocol  grpcs  requesturl  grpcs://orderer5.example.com:7050 
+
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer.example.com:7050
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer2.example.com:7050
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer3.example.com:7050
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer4.example.com:7050
+insertNewOrderers discoveryProtocol  grpcs  requesturl  grpcs://orderer5.example.com:7050
+Received kill signal, shutting down gracefully
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing explorer  >>>>>>>>>>>>>>>>>>>>>
+Closed out connections
+<<<<<<<<<<<<<<<<<<<<<<<<<< Closing client processor >>>>>>>>>>>>>>>>>>>>>
+Error: ChannelEventHub has been shutdown
+    at ChannelEventHub.disconnect (/home/sanket/Documents/test_explorer_server/blockchain-explorer/node_modules/fabric-network/node_modules/fabric-client/lib/ChannelEventHub.js:610:21)
+    at FabricEvent.disconnectChannelEventHub (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/platform/fabric/sync/FabricEvent.js:141:19)
+    at FabricEvent.disconnectEventHubs (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/platform/fabric/sync/FabricEvent.js:159:10)
+    at SyncPlatform.destroy (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/platform/fabric/sync/SyncPlatform.js:198:18)
+    at Synchronizer.close (/home/sanket/Documents/test_explorer_server/blockchain-explorer/app/Synchronizer.js:84:18)
+    at process.shutDown (/home/sanket/Documents/test_explorer_server/blockchain-explorer/sync.js:37:16)
+    at emitOne (events.js:116:13)
+    at process.emit (events.js:211:7)
+    at Signal.wrap.onsignal (internal/process.js:197:44)
