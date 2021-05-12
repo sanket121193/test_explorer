@@ -10,7 +10,7 @@
 		"ajv": "^6.2.0",
 		"aphrodite": "^1.2.5",
 		"bootstrap": "^4.0.0",
-		"chart.js": "^2.7.2",
+		"chart.js": "^2.9.4",
 		"classnames": "^2.2.6",
 		"font-awesome": "^4.7.0",
 		"immutable": "^3.8.1",
